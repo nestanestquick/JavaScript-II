@@ -1,6 +1,12 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+a = 4
+function addFour(parameter) {
+  console.log(parameter + a)
+}
+addFour(5);
+
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
